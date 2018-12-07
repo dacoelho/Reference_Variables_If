@@ -12,8 +12,8 @@ void draw() {
   background(200);
   ellipse(X, Y, 150, 150);
 
-  X=X+bounce;
- //Y=Y+bounce;
+ X=X+bounce;
+ Y=Y+bounce;
 
   if (X>height-75 || X<75)
   { 
